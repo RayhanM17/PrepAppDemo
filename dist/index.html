@@ -7,8 +7,9 @@
     <link href="./css/main.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2bf2695867.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
-  <body class="bg-dark" id="custom-body">
+  <body class="bg-light" id="custom-body">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light px-5">
       <div class="container-xxl">
         <a href="index.html" class="navbar-brand d-sm-inline-flex d-flex-column align-items-center justify-content-sm-start justify-content-center">
@@ -50,7 +51,7 @@
     <!-- Hero -->
     <section class="bg-primary text-light text-center text-md-start p-sm-5 p-1" id="hero">
       <div class="container">
-        <div class="d-lg-flex flex-column align-items-md-start justify-content-center text-content">
+        <div class="d-lg-flex flex-column align-items-md-start justify-content-center text-content" data-aos="fade-right">
           <h1><span class="highlight">Grow</span> Your Business Faster With The World's Smartest Technology</h1>
           <h4>Choose the enterprise-grade platform with built-in features for customer success.</h4>
           <div class="btns">
@@ -63,7 +64,7 @@
     <!-- Services -->
     <section class="bg-light text-dark text-center px-5" id="services">
       <div class="container">
-        <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center" data-aos="fade-in">
           <h4>Unified Platform</h4>
           <h2>One,Platform, Endless Potential</h2>
           <p>an all in one hr and managment platform that makes recruiting, contacting, nurturing potential candidates experiences easier than ever.</p>
@@ -72,25 +73,25 @@
       <!-- Boxes -->
       <div class="container">
         <div class="d-md-flex justify-content-between align-items-center text-center boxes">
-           <div class="d-flex flex-column justify-content-center align-items-center box">
+           <div class="d-flex flex-column justify-content-center align-items-center box mx-md-1" data-aos="fade-right">
             <i class="fa-solid fa-people-group"></i>
             <h3>Global Reach Out</h3>
             <p>
               You can control all the data related to your bussines. Our data and graphical reports know everything.</p>
            </div>
-           <div class="d-flex flex-column justify-content-center align-items-center box">
+           <div class="d-flex flex-column justify-content-center align-items-center box" data-aos="fade-up">
             <i class="fa-solid fa-people-group"></i>
             <h3>Global Reach Out</h3>
             <p>
               You can control all the data related to your bussines. Our data and graphical reports know everything.</p>
            </div>
-           <div class="d-flex flex-column justify-content-center align-items-center box">
+           <div class="d-flex flex-column justify-content-center align-items-center box" data-aos="fade-up">
             <i class="fa-solid fa-people-group"></i>
             <h3>Global Reach Out</h3>
             <p>
               You can control all the data related to your bussines. Our data and graphical reports know everything.</p>
            </div>
-           <div class="d-flex flex-column justify-content-center align-items-center box">
+           <div class="d-flex flex-column justify-content-center align-items-center box" data-aos="fade-left">
             <i class="fa-solid fa-people-group"></i>
             <h3>Global Reach Out</h3>
             <p>
@@ -104,7 +105,7 @@
       <div class="img"></div>
       <div class="container">
         <div class="d-flex align-items-center justify-content-around">
-          <div class="body-text w-75">
+          <div class="body-text w-75" data-aos="slide-left">
             <h4>About Us</h4>
             <h2>AI-Powered Software</h2>
             <p>An all in one hr and managment platform that makes recruiting, contacting, nurturing potential candidates experiences easier than ever. It is built for software companies who want to easily create high converting websites. </p>
@@ -116,14 +117,14 @@
     <!-- Pricing -->
     <section class="bg-light text-dark px-5" id="pricing">
       <div class="container">
-        <div class="d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="d-flex flex-column justify-content-center align-items-center text-center" data-aos="fade-in">
           <h4>Our Pricing</h4>
           <h2>Our Plans For Your Strategies</h2>
           <p>See below three of our main plans for your buisiness. Get started with a set up fee of just 299.99.</p>
         </div>
       </div>
       <div class="container text-center">
-        <table class="table content-table shadow-sm">
+        <table class="table content-table shadow-sm" data-aos="zoom-in">
           <thead>
             <tr>
               <th scope="col">
@@ -237,7 +238,7 @@
     <section id="contact" class="bg-light pb-5">
       <div class="container">
         <div class="row align-items-start justify-content-between gap-4">
-          <div class="info-content col-md text-md-start text-center">
+          <div class="info-content col-md text-md-start text-center" data-aos="fade-right">
             <div class="heading">
               <h4>Get In Touch</h4>
               <h2>We Would Love To Help</h2>
@@ -258,7 +259,7 @@
             </div>
           </div>
           <div class="col-md">
-            <form class="shadow-sm" action="https://formsubmit.co/kinggittyback@gmail.com" method="POST">
+            <form class="shadow-sm" action="https://formsubmit.co/kinggittyback@gmail.com" method="POST" data-aos="fade-in">
               <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" class="form-control" aria-describedby="emailHelp" name="email">
@@ -280,12 +281,19 @@
     <!-- Footer -->
     <footer class="bg-dark text-light">
       <div class="container">
-        <div class="d-flex align-content-center justify-content-center text-center my-5">
+        <div class="d-flex align-content-center justify-content-center text-center py-5">
           <p class="mb-0">2022 Prep App All Rights Reserved</p>
         </div>
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+      offset: 200,
+      duration: 1000
+    });
+    </script>
   </body>
 </html>

@@ -23,6 +23,7 @@ body::before {
 
 // Nav
 .navbar{
+  opacity: 0.98;
   .navbar-brand{
     .img{
       height: 4.375rem;
@@ -262,8 +263,16 @@ body::before {
       .socials{
         i{
           font-size:1rem;
+          padding: 0.5rem;
           &:nth-child(2){
             margin-left: 3rem;
+          }
+
+          transition: ease-out 0.3s;
+
+          &:hover{
+            color: $lightColor;
+            background:$darkColor;
           }
         }
       }
