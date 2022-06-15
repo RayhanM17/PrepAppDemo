@@ -1,0 +1,87 @@
+// Colors
+
+$primaryColor:#00ADEF;
+$secondaryColor:#999;
+$lightColor:#fff;
+$darkColor:#000;
+$montFont:'Montserrat', sans-serif;
+
+
+// General Styles
+
+#custom-body{
+  
+  h1{
+    font-size:2.5rem;
+    font-weight: 500;
+    font-family: $montFont;
+    color: $lightColor;
+  }
+
+  h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: $darkColor;
+    font-family: $montFont;
+  }
+
+  h3{
+    font-size: 1.375rem;
+  }
+  
+  h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: $primaryColor;
+  }
+
+  p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: $secondaryColor;
+    font-family: $montFont;
+  }
+
+  .btn{
+    font-size: 0.875rem;
+    font-family: $montFont;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $lightColor;
+    background-color: $primaryColor;
+    padding: 0.5rem 2rem;
+    border-radius: 0rem;
+    border: none;
+    &-secondary{
+      background-color: $secondaryColor;
+    }
+  }
+
+  .highlight{
+    color: $primaryColor;
+  }
+  
+}
+
+// Media Query Mixins
+
+@mixin mediaSm {
+  @media screen and (max-width: 576px){
+    @content;
+  }
+}
+@mixin mediaMd {
+  @media screen and (max-width: 768px){
+    @content;
+  }
+}
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1199px){
+    @content;
+  }
+}
+@mixin mediaXl {
+  @media screen and (min-width: 1200px){
+    @content;
+  }
+}
