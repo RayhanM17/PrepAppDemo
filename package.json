@@ -1,0 +1,24 @@
+{
+  "name": "prepapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage":"https://RayhanM17.github.io/PrepAppDemo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy" : "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayhanM17/PrepAppDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayhanM17/PrepAppDemo/issues"
+  },
+  "homepage": "https://github.com/RayhanM17/PrepAppDemo#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
