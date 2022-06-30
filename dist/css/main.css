@@ -139,16 +139,12 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-}
-
-body::before {
-  display: block;
-  content: '';
-  height: 6rem;
+  scroll-behavior: smooth;
 }
 
 .navbar {
-  opacity: 0.98;
+  background-color: #fff;
+  transition: ease-in-out 0.3s;
 }
 
 .navbar .navbar-brand .img {
@@ -158,6 +154,12 @@ body::before {
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: cover;
+  transition: ease-in-out 0.3s;
+}
+
+.navbar .navbar-brand .test-2 {
+  height: 3.5rem;
+  width: 5.5rem;
 }
 
 .navbar .collapse .navbar-nav .nav-item .nav-link {
@@ -206,11 +208,16 @@ body::before {
   color: #fff;
 }
 
+.test-1 {
+  background-color: rgba(255, 255, 255, 0.735);
+}
+
 #hero {
   background: url(../assets/stock-1.jpg);
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   z-index: 1;
 }
@@ -232,6 +239,7 @@ body::before {
 }
 
 #hero .container .text-content {
+  margin-top: 3rem;
   max-width: 50rem;
 }
 
@@ -412,7 +420,28 @@ body::before {
   float: right;
 }
 
+@media screen and (min-width: 1200px) {
+  #hero {
+    min-height: 50rem;
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  #hero {
+    min-height: 38rem;
+    height: 80vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  #hero {
+    min-height: 38rem;
+    height: 80vh;
+  }
+  #hero .container .text-content {
+    margin-top: 5rem;
+  }
   #hero .container .text-content h4 {
     width: 100%;
   }
@@ -451,6 +480,10 @@ body::before {
     background-image: url(../assets/logo-sm.png);
     width: 95px;
     height: 60px;
+  }
+  .navbar .navbar-brand .test-2 {
+    height: 3.15rem;
+    width: 4.95rem;
   }
   .navbar .navbar-brand h4 {
     display: none;
@@ -503,6 +536,13 @@ body::before {
   }
   #custom-body .btn-secondary {
     background-color: #999;
+  }
+  #hero {
+    min-height: 28rem;
+    height: 80vh;
+  }
+  #hero .container .text-content {
+    margin-top: 2rem;
   }
   #services .boxes {
     grid-template-columns: 1fr;

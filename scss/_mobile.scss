@@ -1,15 +1,25 @@
 // wide screens
 
 @include mediaXl{
-  
+  #hero{
+    //height: 80vh;
+    min-height: 50rem;
+    height: 80vh;
+  }
 }
 @include mediaLg{
-  
+  #hero{
+    min-height: 38rem;
+    height: 80vh;
+  }
 }
 @include mediaMd{
   #hero{
+    min-height: 38rem;
+    height: 80vh;
     .container{
       .text-content{
+        margin-top: 5rem;
         h4{
           width: 100%;
         }
@@ -66,6 +76,10 @@
         background-image: url(../assets/logo-sm.png);
         width: 95px;
         height: 60px;
+      }
+      .test-2 {
+        height: 3.15rem;
+        width: 4.95rem;
       }
       h4{
         display: none;
@@ -146,8 +160,11 @@
   }
 
   #hero{
+    min-height: 28rem;
+    height: 80vh;
     .container{
       .text-content{
+        margin-top: 2rem;
         h4{
           
         }
