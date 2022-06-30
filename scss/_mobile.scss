@@ -27,6 +27,7 @@
     }
   }
   #services{
+    padding-top: 14.5rem;
     .boxes{
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -43,12 +44,17 @@
   }
 
   #about{
+    padding-top: 14.5rem;
     .img{
       height: 62rem;
     }
   }
+  #pricing{
+    padding-top: 14.5rem;
+  }
 
   #contact{
+    padding-top: 14.5rem;
     .container{
       .heading{
         width: 100%;
@@ -204,6 +210,7 @@
   }
 
   #services{
+    padding-top: 13rem;
     .boxes{
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
@@ -222,6 +229,7 @@
   }
 
   #about{
+    padding-top: 13rem;
     .img{
       height: 0;
     }
@@ -230,6 +238,10 @@
         margin-bottom: 4rem;
       }
     }
+  }
+
+  #pricing{
+    padding-top: 13rem;
   }
 
   #pricing .container .content-table th, .container .content-table td{
@@ -253,6 +265,7 @@
   }
 
   #contact{
+    padding-top: 13rem;
     .heading{
       width: 100%;
     }
