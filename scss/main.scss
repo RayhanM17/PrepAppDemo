@@ -249,21 +249,19 @@ body{
 // Contact
 #contact{
   .container{
+    .heading{
+      h2{
+        margin-bottom: 4rem;
+      }
+    }
     .info-content{
-      height: 30rem;
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      align-items: start;
-      justify-content: space-between;
-
-      .heading{
-        h4{
-          margin-bottom: 2.5rem;
-        }
-      }
+      justify-content: center;
 
       .info{
+        margin-bottom: 13rem;
         i{
           color: $primaryColor;
           font-size:1rem;
@@ -273,6 +271,7 @@ body{
       }
 
       .socials{
+        display: flex;
         i{
           font-size:1rem;
           padding: 0.5rem;

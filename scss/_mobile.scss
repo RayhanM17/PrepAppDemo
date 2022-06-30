@@ -49,15 +49,46 @@
   }
 
   #contact{
-    .heading{
-      width: 100%;
-    }
-    .info{
-      width: 100%;
-    }
+    .container{
+      .heading{
+        width: 100%;
+      }
+      .info-content{
+        align-items: center;
+        justify-content: center;
+        .email{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .phone{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .info{
+          margin-bottom: 5rem;
+          width: 100%;
+        }
+      }
+  
+      .socials{
+        margin-bottom: 4rem;
+      }
 
-    .socials{
-      margin-bottom: 4rem;
+      .form-container{
+        display: grid;
+        grid-template-rows: 1fr 1/2fr;
+        .info-content{
+          grid-row: 2/3;
+          justify-content: start;
+          margin-top: 0rem;
+
+          .info{
+            margin-bottom: 5rem;
+          }
+        }
+      }
     }
   }
 }
