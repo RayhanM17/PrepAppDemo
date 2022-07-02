@@ -145,6 +145,7 @@ body {
 .navbar {
   background-color: #fff;
   transition: ease-in-out 0.3s;
+  overflow-x: hidden;
 }
 
 .navbar .navbar-brand .img {
@@ -220,6 +221,7 @@ body {
   background-attachment: fixed;
   position: relative;
   z-index: 1;
+  overflow-x: hidden;
 }
 
 #hero::before {
@@ -255,6 +257,7 @@ body {
 }
 
 #services {
+  overflow-x: hidden;
   padding: 6rem 0;
 }
 
@@ -288,6 +291,10 @@ body {
   margin-bottom: 0;
 }
 
+#about {
+  overflow-x: hidden;
+}
+
 #about .img {
   background-image: url(../assets/stock-2.jpg);
   background-repeat: no-repeat, repeat;
@@ -314,6 +321,7 @@ body {
 }
 
 #pricing {
+  overflow-x: hidden;
   padding: 6rem 0;
 }
 
@@ -356,6 +364,10 @@ body {
 
 #pricing .container .content-table td p {
   color: #00ADEF;
+}
+
+#contact {
+  overflow-x: hidden;
 }
 
 #contact .container .heading h2 {

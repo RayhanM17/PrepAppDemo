@@ -21,6 +21,7 @@ body{
 .navbar{
   background-color: #fff;
   transition: ease-in-out 0.3s;
+  overflow-x:hidden ;
   .navbar-brand{
     .img{
       height: 4.375rem;
@@ -107,6 +108,7 @@ body{
   background-attachment: fixed;
   position: relative;
   z-index: 1;
+  overflow-x:hidden ;
 
   &::before{
     content: "";
@@ -141,6 +143,7 @@ body{
 // Services
 
 #services{
+  overflow-x:hidden ;
   padding: 6rem 0;
   .container{
     h4{
@@ -177,6 +180,7 @@ body{
 
 // About
 #about{
+  overflow-x:hidden ;
   .img{
     background-image: url(../assets/stock-2.jpg);
     background-repeat: no-repeat, repeat;
@@ -201,6 +205,7 @@ body{
 
 // Pricing
 #pricing{
+  overflow-x:hidden ;
   padding: 6rem 0;
   .container{
     h4{
@@ -248,6 +253,7 @@ body{
 
 // Contact
 #contact{
+  overflow-x:hidden ;
   .container{
     .heading{
       h2{
