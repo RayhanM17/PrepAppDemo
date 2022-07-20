@@ -262,29 +262,87 @@
           <h4>Get In Touch</h4>
           <h2>We Would Love To Help</h2>
         </div>
-        <form class="shadow-sm" action="https://formsubmit.co/kinggittyback@gmail.com" method="POST" data-aos="fade-in">
+        <form class="shadow-sm" id="contact-form" action="https://formsubmit.co/info@PrepApp.biz" method="POST" data-aos="fade-in">
+          <div id="alert-container"></div>
           <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" aria-describedby="emailHelp" name="email">
+            <label for="name" class="form-label">
+              Name
+              <i class="fa-solid fa-asterisk ms-2 text-danger"></i>
+            </label>
+            <input
+              type="name" 
+              class="form-control"
+              id="name" 
+              name="name"
+            >
           </div>
           <div class="mb-3">
-            <label for="phone" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" name="phone">
+            <label for="company" class="form-label">
+              Company
+            </label>
+            <input
+              type="company" 
+              class="form-control"
+              id="company" 
+              name="company"
+            >
           </div>
           <div class="mb-3">
-            <label for="msg" class="form-label">Message</label>
-            <textarea type="text" class="form-control" name="message"></textarea>
+            <label for="phone" class="form-label">
+              Phone Number
+            </label>
+            <input 
+              type="number" 
+              class="form-control"
+              id="phone" 
+              name="phone" 
+            >
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">
+              Email address
+              <i class="fa-solid fa-asterisk ms-2 text-danger"></i>
+            </label>
+            <input
+              type="email" 
+              class="form-control"
+              id="email" 
+              name="email"
+            >
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">
+              Subject
+            </label>
+            <input
+              type="subject" 
+              class="form-control"
+              id="subject" 
+              name="subject"
+            >
+          </div>
+          <div class="mb-3">
+            <label for="msg" class="form-label">
+              Message
+              <i class="fa-solid fa-asterisk ms-2 text-danger"></i>
+            </label>
+            <textarea 
+              type="text" 
+              class="form-control"
+              id="message" 
+              name="message" 
+            ></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
         <div class="info" data-aos="fade-right">
           <div class="d-md-flex mb-5 align-items-start email">
             <i class="fa-solid fa-envelope"></i>
-            <p>support@prepapp.biz</p>
+            <p>info@PrepApp.biz</p>
           </div>
           <div class="d-md-flex align-items-start phone">
             <i class="fa-solid fa-phone"></i>
-            <p>support@prepapp.biz</p>
+            <p>954-488-2196</p>
           </div>
         </div>
         <div class="socials" data-aos="fade-up">
